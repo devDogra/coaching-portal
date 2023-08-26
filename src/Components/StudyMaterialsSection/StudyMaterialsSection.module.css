@@ -1,0 +1,14 @@
+.studyMaterials {
+    display: flex; 
+    padding: 1rem; 
+}
+
+.studyMaterialsSection > h1 {
+    padding: 0 1rem; 
+    margin: 1em 0 0 0; 
+}
+
+.studyMaterialCard {
+    margin: 0 1em; 
+}
+
