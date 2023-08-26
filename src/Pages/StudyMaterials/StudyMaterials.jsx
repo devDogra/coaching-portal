@@ -9,11 +9,9 @@ export default function StudyMaterials() {
         <>
             <NavBar/>
             
-            {/* <StudyMaterialsSection x={10} title="1. Buying Maggi"/> */}
-            {/* <StudyMaterialsSection x={10} title="1. Buying Maggi"/> */}
-            {/* <StudyMaterialsSection x={10} title="1. Buying Maggi"/> */}
-
-            {/* <Divider></Divider> */}
+            <StudyMaterialsSection title="1. Buying Maggi" />
+            <StudyMaterialsSection title="2. Boiling Water" />
+            <StudyMaterialsSection title="3. Cooking" />
         </>
     );
 }
