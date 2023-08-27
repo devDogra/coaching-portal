@@ -34,6 +34,14 @@ export default function NavBar() {
             </Navbar.Group>
 
             <Navbar.Group align={Alignment.RIGHT}>
+                <LinkButton 
+                    to="/register" 
+                    icon="new-person" 
+                    className="bp5-minimal"
+                >
+                    Register
+                </LinkButton>
+
                 <Button className="bp5-minimal" icon="person"/>
             </Navbar.Group>
         </Navbar>
