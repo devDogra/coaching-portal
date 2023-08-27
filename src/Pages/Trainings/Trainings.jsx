@@ -6,7 +6,7 @@ export default function Trainings() {
 
     return (
         <>
-            <MainCenteredHeading />
+            <MainCenteredHeading>Your Trainings</MainCenteredHeading>
             <ul className={classes.trainingCardList}>
                 <TrainingCard className={classes.trainingCard}/>
                 <TrainingCard className={classes.trainingCard}/>

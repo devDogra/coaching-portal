@@ -1,9 +1,11 @@
 import classes from "./MainCenteredHeading.module.css";
 
-export default function MainCenteredHeading() {
+export default function MainCenteredHeading(props) {
     return (
         <h1 className={classes.mainCenteredHeading + " bp5-heading"} > 
-            Your Trainings
+            {
+                props.children
+            }
         </h1>
     ); 
 }
