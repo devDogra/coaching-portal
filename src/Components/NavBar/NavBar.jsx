@@ -6,6 +6,7 @@ import { Link } from "@blueprintjs/icons";
 import LinkButton from "../LinkButton/LinkButton";
 import Trainings from "../../Pages/Trainings/Trainings";
 import { Icon } from "@blueprintjs/core";
+import StudyMaterials from "../../Pages/StudyMaterials/StudyMaterials";
 
 export default function NavBar() {
 
@@ -18,16 +19,14 @@ export default function NavBar() {
                 <LinkButton 
                     to="/" 
                     icon="home" 
-                    element={ <Trainings />} 
                     className="bp5-minimal"
                 >
                     Dashboard
                 </LinkButton>
 
                 <LinkButton 
-                    to="/" 
+                    to="/training" 
                     icon="book" 
-                    element={ <Trainings />} 
                     className="bp5-minimal"
                 >
                     Trainings

@@ -8,13 +8,14 @@ import { Link } from "react-router-dom";
 import { Button } from "@blueprintjs/core";
 import { Intent } from "@blueprintjs/core";
 import { Classes } from "@blueprintjs/core";
+import StudyMaterials from "./Pages/StudyMaterials/StudyMaterials";
 export default function App() {
   return (
     <>
       <NavBar />
       <Routes>
         <Route path="/" element={<Trainings />}></Route>
-        <Route path="/materials" element={<Trainings />}></Route>
+        <Route path="/training" element={<StudyMaterials />}></Route>
       </Routes>
 
     </>
